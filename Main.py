@@ -20,6 +20,7 @@ Powered by Gemini <img src="https://play-lh.googleusercontent.com/DDIUuR0XwdSLnu
 , Streamlit and Python''', unsafe_allow_html=True)
 st.caption("By Ashu")
 
+
 #------------------------------------------------------------
 #LANGUAGE
 langcols = st.columns([0.2,0.8])
@@ -30,7 +31,7 @@ with langcols[0]:
   'Русский', '日本語', '한국어', '中文', 'العربية',
   'हिन्दी', 'Türkçe', 'Tiếng Việt', 'Bahasa Indonesia',
   'ภาษาไทย', 'Română', 'Ελληνικά', 'Magyar', 'Čeština',
-  'Svenska', 'Norsk', 'Suomi', 'Dansk', 'हिन्दी', 'हिन्�'),index=0)
+  'Svenska', 'Norsk', 'Suomi', 'Dansk', 'हिन्दी', 'हिन् '),index=0)
 
 if 'lang' not in st.session_state:
     st.session_state.lang = lang
