@@ -1,4 +1,4 @@
-# NemoAI - Your own AI ChatBot!!
+# CherryAI - Your own AI ChatBot!!
 
 
 ## Overview
